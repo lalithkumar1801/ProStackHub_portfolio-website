@@ -300,6 +300,3 @@ Potential future improvements include:
 The Portfolio Website demonstrates the use of core web development technologies to create a responsive, interactive, and deployable personal website.
 
 The architecture was intentionally kept simple and maintainable while providing the functionality required for a professional developer portfolio.
-
-````
-
