@@ -1,3 +1,4 @@
+```javascript
 // =========================
 // MOBILE NAVIGATION
 // =========================
@@ -17,13 +18,9 @@ menuToggle.addEventListener("click", () => {
 const navigationLinks = document.querySelectorAll(".nav-links a");
 
 navigationLinks.forEach((link) => {
-
   link.addEventListener("click", () => {
-
     navLinks.classList.remove("active");
-
   });
-
 });
 
 
@@ -35,26 +32,18 @@ const sections = document.querySelectorAll(".section");
 
 const observer = new IntersectionObserver(
   (entries) => {
-
     entries.forEach((entry) => {
-
       if (entry.isIntersecting) {
-
         entry.target.classList.add("visible");
-
       }
-
     });
-
   },
   {
     threshold: 0.15
   }
 );
 
-
 sections.forEach((section) => {
-
   observer.observe(section);
-
 });
+```
